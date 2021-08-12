@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Aug 2021 03:52:36 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Wed, 11 Aug 2021 03:52:36 +0800</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      
+        <description>sadfjdska sda fsd f dsaf
+f fds fds sd ds</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/posts/putty%E7%94%A8ssh%E5%AF%86%E5%8C%99%E7%99%BB%E9%99%86%E8%85%BE%E8%AE%AF%E4%BA%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/putty%E7%94%A8ssh%E5%AF%86%E5%8C%99%E7%99%BB%E9%99%86%E8%85%BE%E8%AE%AF%E4%BA%91/</guid>
+      
+        <description> 登陆腾讯云，选择“云服务器”-“SSH密匙”，创建密匙，下载。 下载的文件为pem，需要转换为ppk。打开PuTTYgen，点击&amp;quot;file&amp;quot;-&amp;ldquo;load private key&amp;rdquo;，文件类型选择所有，选中下载的文件（your.pem),点击生成，即可完成转换。 打开PuTTY，在“session&amp;quot;中输入“hostname”，连接类型选SSH，在“connection”-“SSH”-“Auth”选择ppk文件。 在“session”中保存。然后点“open”，输入用户名即可。  </description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/posts/ssh%E7%99%BB%E9%99%86%E8%85%BE%E8%AE%AF%E4%BA%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/ssh%E7%99%BB%E9%99%86%E8%85%BE%E8%AE%AF%E4%BA%91/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
