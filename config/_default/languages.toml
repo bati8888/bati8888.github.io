@@ -1,0 +1,11 @@
+[en]
+title = "My blog"
+weight = 1
+LanguageName = "EN"
+contentDir = "content/english"
+
+[zh-cn]
+title = "巴蒂博客"
+weight = 1
+LanguageName = "zh-cn"
+contentDir = "content/chinese"

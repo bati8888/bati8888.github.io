@@ -1,0 +1,23 @@
+  [[main]]
+  name = "tech"
+  weight = 200
+  identifier = "tech"
+  url = "/tech/"
+
+  [[main]]
+  name = "blog"
+  weight = 200
+  identifier = "blog"
+  url = "/blog/"
+
+  [[main]]
+  name = "about"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  # [[footer]]
+  # name = "imprint"
+  # weight = 1
+  # identifier = "imprint"
+  # url = "/imprint/"

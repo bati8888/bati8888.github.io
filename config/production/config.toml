@@ -1,0 +1,27 @@
+baseURL =  "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "zh-cn"
+title = "saffaf"
+rrr="sf"
+theme = "anatole"
+#theme = "tokiwa"
+summarylength = 10
+truncated=true
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true

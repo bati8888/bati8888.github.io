@@ -1,0 +1,61 @@
+{{ define "main" }}
+  <div
+    class="archive {{ with .Site.Params.doNotLoadAnimations }}
+      .
+
+    {{ else }}
+      animated fadeInDown
+
+    {{ end }}"
+  >
+  
+    <ul class="list-with-title">
+      {{ range .Data.Pages.GroupByDate "2006" }}
+        <div class="listing-title">{{ .Key }}</div>
+        {{ range .Pages }}
+          <ul class="listing">
+            <div class="listing-item">
+              <div class="listing-post">
+                <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                <p>
+                  {{ if .Site.Params.fullPostContent }}
+                    {{ .Content }}
+      
+      
+                  {{ else }}
+                    {{ .Summary }}
+      
+      
+                  {{ end }}
+                  {{- if  (.Site.Params.readMore) -}}
+                  <a href="{{ .RelPermalink }}" class="read_more">{{ i18n "read_more" }}</a>
+      
+                {{- end -}}
+                </p>
+              
+                <div class="post-time">
+                  <span class="date"
+                    >{{ if isset .Site.Params "listdateformat" }}
+                      {{ .Date.Format .Site.Params.listDateFormat }}
+
+
+                    {{ else }}
+                      {{ .Date.Format "Jan 2" }}
+
+
+                    {{ end }}</span
+                  >
+                </div>
+              </div>
+              
+            </div>
+          </ul>
+
+        {{ end }}
+
+
+      {{ end }}
+    </ul>
+  </div>
+
+{{ end }}
